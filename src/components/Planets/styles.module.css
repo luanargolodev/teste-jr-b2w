@@ -31,6 +31,7 @@
   display: flex;
   color: yellow;
   font-family: 'Starjedi';
+  font-size: 1.2rem;
 }
 
 .info_number {
@@ -40,4 +41,19 @@
   color: gray;
   padding-left: 1rem;
   font-family: 'Rajdhani';
+}
+
+@media (max-width: 590px) {
+  .card {
+    padding: 1rem;
+  }
+  .card h1 {
+    font-size: 1.5rem;
+  }
+  .info {
+    font-size: 0.875rem;
+  }
+  .info_number {
+    font-size: 1rem;
+  }
 }
