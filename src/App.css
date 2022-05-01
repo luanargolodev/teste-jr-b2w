@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background: url('./assets/images/background.gif') no-repeat;
+  background-size: cover;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+@font-face {
+  font-family: Starjedi;
+  font-display: auto;
+  src: url('./assets/fonts/Starjedi.ttf');
+}
+
+@font-face {
+  font-family: Rajdhani;
+  font-display: auto;
+  src: url('./assets/fonts/Rajdhani.ttf');
+}

@@ -1,0 +1,18 @@
+.header {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Starjedi';
+}
+
+.header h1 {
+  color: yellow;
+  font-size: 3rem;
+}
+
+.header p {
+  color: #fff;
+  font-size: 2rem;
+}
