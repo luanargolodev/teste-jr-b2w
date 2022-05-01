@@ -1,21 +1,6 @@
-import React, { useState, useEffect } from 'react';
 import styles from './styles.module.css';
 
-const Planets = () => {
-  const [data, setData] = useState(null);
-
-  useEffect(() => {
-    function getPlanet() {
-      const planet = Math.floor(Math.random() * 60) + 1;
-      fetch(`https://swapi.dev/api/planets/${planet}/`)
-        .then((res) => res.json())
-        .then((data) => setData(data))
-        .catch((err) => console.log(err));
-    }
-
-    getPlanet();
-  }, []);
-
+const Planets = ({ data }) => {
   return (
     <main className={styles.main}>
       {data && (
